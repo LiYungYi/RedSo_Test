@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAEDE5472302E0A200136922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE5462302E0A200136922 /* AppDelegate.swift */; };
+		EAEDE54C2302E0A200136922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEDE54A2302E0A200136922 /* Main.storyboard */; };
+		EAEDE54E2302E0A300136922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAEDE54D2302E0A300136922 /* Assets.xcassets */; };
+		EAEDE5512302E0A300136922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEDE54F2302E0A300136922 /* LaunchScreen.storyboard */; };
+		EAEDE55C2302E0A300136922 /* RedSoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE55B2302E0A300136922 /* RedSoTestTests.swift */; };
+		EAEDE5672302E0A300136922 /* RedSoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE5662302E0A300136922 /* RedSoTestUITests.swift */; };
+		EAEDE5772302E0BD00136922 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE5762302E0BD00136922 /* LoadingView.swift */; };
+		EAEDE5792302E0C400136922 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE5782302E0C400136922 /* APIService.swift */; };
+		EAEDE57B2302E11100136922 /* MemberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE57A2302E11100136922 /* MemberVC.swift */; };
+		EAEDE57D2302E2C100136922 /* commonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE57C2302E2C100136922 /* commonData.swift */; };
+		EAEDE57F2302EECC00136922 /* CommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE57E2302EECC00136922 /* CommonTableViewCell.swift */; };
+		EAEDE5812302F42400136922 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDE5802302F42400136922 /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAEDE5582302E0A300136922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEDE53B2302E0A200136922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEDE5422302E0A200136922;
+			remoteInfo = RedSoTest;
+		};
+		EAEDE5632302E0A300136922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAEDE53B2302E0A200136922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAEDE5422302E0A200136922;
+			remoteInfo = RedSoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAEDE5432302E0A200136922 /* RedSoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEDE5462302E0A200136922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAEDE54B2302E0A200136922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAEDE54D2302E0A300136922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAEDE5502302E0A300136922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAEDE5522302E0A300136922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEDE5572302E0A300136922 /* RedSoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedSoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEDE55B2302E0A300136922 /* RedSoTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSoTestTests.swift; sourceTree = "<group>"; };
+		EAEDE55D2302E0A300136922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEDE5622302E0A300136922 /* RedSoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedSoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEDE5662302E0A300136922 /* RedSoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSoTestUITests.swift; sourceTree = "<group>"; };
+		EAEDE5682302E0A300136922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAEDE5762302E0BD00136922 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EAEDE5782302E0C400136922 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		EAEDE57A2302E11100136922 /* MemberVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberVC.swift; sourceTree = "<group>"; };
+		EAEDE57C2302E2C100136922 /* commonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonData.swift; sourceTree = "<group>"; };
+		EAEDE57E2302EECC00136922 /* CommonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTableViewCell.swift; sourceTree = "<group>"; };
+		EAEDE5802302F42400136922 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAEDE5402302E0A200136922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEDE5542302E0A300136922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEDE55F2302E0A300136922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5306F5230BC06000809B8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE5782302E0C400136922 /* APIService.swift */,
+				EAEDE57C2302E2C100136922 /* commonData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA5306F6230BC06E00809B8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE5762302E0BD00136922 /* LoadingView.swift */,
+				EAEDE5802302F42400136922 /* HeaderView.swift */,
+				EAEDE57E2302EECC00136922 /* CommonTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA5306F7230BC08400809B8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE57A2302E11100136922 /* MemberVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAEDE53A2302E0A200136922 = {
+			isa = PBXGroup;
+			children = (
+				EAEDE5452302E0A200136922 /* RedSoTest */,
+				EAEDE55A2302E0A300136922 /* RedSoTestTests */,
+				EAEDE5652302E0A300136922 /* RedSoTestUITests */,
+				EAEDE5442302E0A200136922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAEDE5442302E0A200136922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE5432302E0A200136922 /* RedSoTest.app */,
+				EAEDE5572302E0A300136922 /* RedSoTestTests.xctest */,
+				EAEDE5622302E0A300136922 /* RedSoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAEDE5452302E0A200136922 /* RedSoTest */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE5462302E0A200136922 /* AppDelegate.swift */,
+				EA5306F5230BC06000809B8E /* Model */,
+				EA5306F6230BC06E00809B8E /* View */,
+				EA5306F7230BC08400809B8E /* Controller */,
+				EAEDE54A2302E0A200136922 /* Main.storyboard */,
+				EAEDE54D2302E0A300136922 /* Assets.xcassets */,
+				EAEDE54F2302E0A300136922 /* LaunchScreen.storyboard */,
+				EAEDE5522302E0A300136922 /* Info.plist */,
+			);
+			path = RedSoTest;
+			sourceTree = "<group>";
+		};
+		EAEDE55A2302E0A300136922 /* RedSoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE55B2302E0A300136922 /* RedSoTestTests.swift */,
+				EAEDE55D2302E0A300136922 /* Info.plist */,
+			);
+			path = RedSoTestTests;
+			sourceTree = "<group>";
+		};
+		EAEDE5652302E0A300136922 /* RedSoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDE5662302E0A300136922 /* RedSoTestUITests.swift */,
+				EAEDE5682302E0A300136922 /* Info.plist */,
+			);
+			path = RedSoTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAEDE5422302E0A200136922 /* RedSoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEDE56B2302E0A300136922 /* Build configuration list for PBXNativeTarget "RedSoTest" */;
+			buildPhases = (
+				EAEDE53F2302E0A200136922 /* Sources */,
+				EAEDE5402302E0A200136922 /* Frameworks */,
+				EAEDE5412302E0A200136922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedSoTest;
+			productName = RedSoTest;
+			productReference = EAEDE5432302E0A200136922 /* RedSoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAEDE5562302E0A300136922 /* RedSoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEDE56E2302E0A300136922 /* Build configuration list for PBXNativeTarget "RedSoTestTests" */;
+			buildPhases = (
+				EAEDE5532302E0A300136922 /* Sources */,
+				EAEDE5542302E0A300136922 /* Frameworks */,
+				EAEDE5552302E0A300136922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAEDE5592302E0A300136922 /* PBXTargetDependency */,
+			);
+			name = RedSoTestTests;
+			productName = RedSoTestTests;
+			productReference = EAEDE5572302E0A300136922 /* RedSoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAEDE5612302E0A300136922 /* RedSoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAEDE5712302E0A300136922 /* Build configuration list for PBXNativeTarget "RedSoTestUITests" */;
+			buildPhases = (
+				EAEDE55E2302E0A300136922 /* Sources */,
+				EAEDE55F2302E0A300136922 /* Frameworks */,
+				EAEDE5602302E0A300136922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAEDE5642302E0A300136922 /* PBXTargetDependency */,
+			);
+			name = RedSoTestUITests;
+			productName = RedSoTestUITests;
+			productReference = EAEDE5622302E0A300136922 /* RedSoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAEDE53B2302E0A200136922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李泳逸";
+				TargetAttributes = {
+					EAEDE5422302E0A200136922 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					EAEDE5562302E0A300136922 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EAEDE5422302E0A200136922;
+					};
+					EAEDE5612302E0A300136922 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EAEDE5422302E0A200136922;
+					};
+				};
+			};
+			buildConfigurationList = EAEDE53E2302E0A200136922 /* Build configuration list for PBXProject "RedSoTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAEDE53A2302E0A200136922;
+			productRefGroup = EAEDE5442302E0A200136922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAEDE5422302E0A200136922 /* RedSoTest */,
+				EAEDE5562302E0A300136922 /* RedSoTestTests */,
+				EAEDE5612302E0A300136922 /* RedSoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAEDE5412302E0A200136922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDE5512302E0A300136922 /* LaunchScreen.storyboard in Resources */,
+				EAEDE54E2302E0A300136922 /* Assets.xcassets in Resources */,
+				EAEDE54C2302E0A200136922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEDE5552302E0A300136922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEDE5602302E0A300136922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAEDE53F2302E0A200136922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDE57F2302EECC00136922 /* CommonTableViewCell.swift in Sources */,
+				EAEDE5472302E0A200136922 /* AppDelegate.swift in Sources */,
+				EAEDE5792302E0C400136922 /* APIService.swift in Sources */,
+				EAEDE57B2302E11100136922 /* MemberVC.swift in Sources */,
+				EAEDE5772302E0BD00136922 /* LoadingView.swift in Sources */,
+				EAEDE57D2302E2C100136922 /* commonData.swift in Sources */,
+				EAEDE5812302F42400136922 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEDE5532302E0A300136922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDE55C2302E0A300136922 /* RedSoTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAEDE55E2302E0A300136922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEDE5672302E0A300136922 /* RedSoTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAEDE5592302E0A300136922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEDE5422302E0A200136922 /* RedSoTest */;
+			targetProxy = EAEDE5582302E0A300136922 /* PBXContainerItemProxy */;
+		};
+		EAEDE5642302E0A300136922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAEDE5422302E0A200136922 /* RedSoTest */;
+			targetProxy = EAEDE5632302E0A300136922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAEDE54A2302E0A200136922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEDE54B2302E0A200136922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAEDE54F2302E0A300136922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAEDE5502302E0A300136922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAEDE5692302E0A300136922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAEDE56A2302E0A300136922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAEDE56C2302E0A300136922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCGHGMPVYD;
+				INFOPLIST_FILE = RedSoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.RedSoTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAEDE56D2302E0A300136922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCGHGMPVYD;
+				INFOPLIST_FILE = RedSoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.RedSoTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAEDE56F2302E0A300136922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCGHGMPVYD;
+				INFOPLIST_FILE = RedSoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.RedSoTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedSoTest.app/RedSoTest";
+			};
+			name = Debug;
+		};
+		EAEDE5702302E0A300136922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCGHGMPVYD;
+				INFOPLIST_FILE = RedSoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.RedSoTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedSoTest.app/RedSoTest";
+			};
+			name = Release;
+		};
+		EAEDE5722302E0A300136922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCGHGMPVYD;
+				INFOPLIST_FILE = RedSoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.RedSoTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedSoTest;
+			};
+			name = Debug;
+		};
+		EAEDE5732302E0A300136922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QCGHGMPVYD;
+				INFOPLIST_FILE = RedSoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.RedSoTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedSoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAEDE53E2302E0A200136922 /* Build configuration list for PBXProject "RedSoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDE5692302E0A300136922 /* Debug */,
+				EAEDE56A2302E0A300136922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEDE56B2302E0A300136922 /* Build configuration list for PBXNativeTarget "RedSoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDE56C2302E0A300136922 /* Debug */,
+				EAEDE56D2302E0A300136922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEDE56E2302E0A300136922 /* Build configuration list for PBXNativeTarget "RedSoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDE56F2302E0A300136922 /* Debug */,
+				EAEDE5702302E0A300136922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAEDE5712302E0A300136922 /* Build configuration list for PBXNativeTarget "RedSoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAEDE5722302E0A300136922 /* Debug */,
+				EAEDE5732302E0A300136922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAEDE53B2302E0A200136922 /* Project object */;
+}
